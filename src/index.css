@@ -1,13 +1,112 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+body {
+  font-family: "Inter",sans-serif;
+  background: #d49d36;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button{
+  border: none;
+  cursor: pointer;
+  transition: .4s;
 }
+.header{
+  gap: 20px;
+  padding: 50px ;
+  display: flex;
+  justify-content: start;
+  font-size: 20px;
+  color: white;
+}
+.header a{
+
+  font-size: 35px;
+  color: white;
+}
+.cloudy h2{
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+
+}
+.cloudy h3{
+  font-size: 64px;
+  font-weight: 500;
+  color: white;
+}
+.cloudy h4{
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
+
+.week{
+ width: 300px;
+  padding: 50px 0;
+}
+ .name-week{
+   display: flex;
+   /*align-items: center;*/
+   gap: 20px;
+   justify-content: space-between;
+   color: white ;
+   font-weight: 300;
+   font-size: 20px;
+
+ }
+ .weather-icon{
+   padding: 25px;
+   display: flex;
+   justify-content: space-between;
+ }
+ .icons{
+   color: #F5B747;
+ }
+
+ .general{
+   border: 2px solid white;
+   width:400px;
+   height: 285px;
+   color: #DFAE53;
+   border-radius: 10px ;
+
+ }
+ .general h4,h5{
+     font-size: 10px;
+     font-weight: 400;
+     color: white;
+ }
+ .hour{
+     padding: 18px 9px;
+   display: flex;
+font-weight: 500;
+   font-size: 19px;
+   gap: 10px;
+   color: white;
+ }
+ .block{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+.one{
+    padding: 40px 0;
+}
+
+.btn{
+
+    width: 205px;
+    height: 30px;
+   border-radius: 16px;
+    background: #EACA8F;
+    color: white;
+
+
+}
+
